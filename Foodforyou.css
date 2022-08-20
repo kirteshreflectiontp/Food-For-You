@@ -1,3 +1,41 @@
 .mpp_block{
     display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mpp_block1,.mpp_block2{
+padding: 20px;
+}
+.mpp_img1{
+    padding-bottom: 30px;
+}
+.mpp_txt1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    color: white;
+}
+.mpp_txt2{
+    position: absolute;
+    right: 490px;
+    top: 65px;
+    color: white;
+}
+
+.mpp_txt3{
+    position: absolute;
+    right: 465px;
+    bottom: 110px;
+    color: white;
+    color: white;
+}
+.try-it-out{
+    font-size: 25px;
+}
+.mpp_sub_txt2{
+    font-size: 33px;
+}
+.mpp_sub_txt1{
+    font-size: 43px;
 }
