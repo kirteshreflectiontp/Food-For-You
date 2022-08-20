@@ -17,14 +17,14 @@ padding: 20px;
 .mpp_txt1{
     position: absolute;
     left: 200px;
-    top: 100px;
+    top:  75px;
     color: white;
     font-family:'montserrat';
 }
 .mpp_txt2{
     position: absolute;
     right: 490px;
-    top: 65px;
+    top: 45px;
     color: white;
     font-family:'montserrat';
 }
@@ -32,7 +32,7 @@ padding: 20px;
 .mpp_txt3{
     position: absolute;
     right: 465px;
-    bottom: 110px;
+    bottom: 120px;
     color: white;
     font-family:'montserrat';
 }
