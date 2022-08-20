@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'montserrat';
+    src: url(./fonts/montserrat.regular.ttf);
+}
 .mpp_block{
     display: flex;
     justify-content: center;
@@ -15,12 +19,14 @@ padding: 20px;
     left: 200px;
     top: 100px;
     color: white;
+    font-family:'montserrat';
 }
 .mpp_txt2{
     position: absolute;
     right: 490px;
     top: 65px;
     color: white;
+    font-family:'montserrat';
 }
 
 .mpp_txt3{
@@ -28,7 +34,7 @@ padding: 20px;
     right: 465px;
     bottom: 110px;
     color: white;
-    color: white;
+    font-family:'montserrat';
 }
 .try-it-out{
     font-size: 25px;
