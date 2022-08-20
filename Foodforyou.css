@@ -3,12 +3,16 @@ body{
     margin: 0px;
 }
 @font-face {
-    font-family:'FrederickatheGreat.ttf';
-    src: url(./fonts/FrederickatheGreat-Regular.ttf);
-    font-family:'montserrat.ttf';
+    font-family:'montserrat';
     src: url(./fonts/montserrat.regular.ttf);
-    font-family:'gabelisa.ttf';
+}
+@font-face {
+    font-family:'gabelisa';
     src: url(./fonts/gabelisa.ttf);
+}
+@font-face {
+    font-family:'FrederickatheGreat';
+    src: url(./fonts/FrederickatheGreat-Regular.ttf);
 }
 .header_bg{
     background-color: #ffdf01;
@@ -30,27 +34,31 @@ body{
   .head_one{
     display: flex;
     justify-content: space-between;
+    padding: 0px 15px;
   }
   .head_one_txt{
     float: left;
+    padding-right: 35px;
   }
   .head_one_txt1{
     font-size: 17px;
     font-weight: bold;
-    font-family:' montserrat.ttf';
+    font-family:'montserrat';
+    padding-left: 38px;
   }
   .head_one_txt2{
     font-size: 27px;
     font-weight: bold;
-    font-family:' montserrat.ttf';
+    font-family:'montserrat';
 }
 .head_one_txt3{
     float: left;
 }
 .head_two{
-    width: 100%;
+    padding: 0px 15px;
     display: flex;
     justify-content: end;
+
 }
 .head_nav{
     float: right;
@@ -60,7 +68,7 @@ body{
     font-size: 17px;
     padding: 0px 0px 0px 130px;
     font-weight: bold;
-    font-family:' montserrat.ttf';
+    font-family:'montserrat';
 }
 .head_three{
     text-align: center;
@@ -69,23 +77,23 @@ body{
     position: relative
 }
 .header_txt1{
-    font-family:'gabelisa.ttf' ;
+    font-family:'gabelisa' ;
     font-size:58px ;
     padding: 25px 0px 0px 0px;
 }
 .header_txt2{
-    font-family:'FrederickatheGreat.ttf' ;
+    font-family:'FrederickatheGreat' ;
     font-size:90px ;
     padding: 5px 0px;
 }
 .header_txt3{
-    font-family:' montserrat.ttf' ;
+    font-family:'montserrat' ;
     font-size:27px ;
     font-weight: bold;
     padding: 5px 0px;
 }
 .header_txt4{
-    font-family:'FrederickatheGreat.ttf' ;
+    font-family:'FrederickatheGreat' ;
     font-size:19px ;
     padding: 5px 0px;
     display: flex;
@@ -107,12 +115,12 @@ body{
     border: 1px solid black;
     background-color: #ffdf01;
     font-size: 21px;
-    font-family:' montserrat.ttf' ;
+    font-family:'montserrat' ;
 }
 .head_leaf{
     position: absolute;
-    top: 5px;
-    left: 0px;
+    top: 10px;
+    left: 25px;
     transform: rotate(-20deg);
 }
 .head_pasta{
@@ -129,13 +137,13 @@ body{
 }
 .head_leaf1{
     position: absolute;
-    bottom: -90px;
-    right: 70px;
+    bottom: -65px;
+    right: 85px;
 }
 .head_tomato{
     position: absolute;
-    bottom: -100px;
-    right: 750px;
+    bottom: -75px;
+    right: 745px;
 }
 .head_spaghetti{
     position: absolute;
