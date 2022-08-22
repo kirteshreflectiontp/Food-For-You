@@ -62,7 +62,7 @@
 }
 .choose-and-enjoy{
     width:33.33%;
-
+}
 body{
     width: 100%;
     margin: 0px;
@@ -216,3 +216,109 @@ body{
     left: -190px;
 
 }
+
+
+/******************Slider code starts here*****************/
+
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url('./fonts/FrederickatheGreat-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Thin';
+    src: url('./fonts/Roboto-Thin.ttf');
+  }
+  
+  
+  body {
+      margin: 0 auto;
+      max-width: 1260px;
+      text-align: center;
+  }
+  .discover-heading{
+    
+   font-family: 'Montserrat';
+      font-weight: bold;
+      font-size: 15px;
+  
+  }
+  
+  .divHeading{
+    margin-top: 34px;
+    padding-bottom: 24px;
+  }
+  
+  
+  .upcomingEvent-heading{
+   font-family: FrederickatheGreat-Regular;
+   text-transform: uppercase;
+   font-size: 30px;
+  }
+  
+  .divHeading p{
+    width: 881px;
+    font-family: Montserrat;
+    margin-left: 169px;
+    font-size: 12px;
+  }
+  
+  .showSlider {
+  
+  
+      height: 197px;
+      width:300px;
+      margin: auto;
+  
+      padding: 26px;
+      background-color: white;
+      box-shadow: -3px 20px 59px -7px;
+  
+  }
+  
+  .slideDisplay {
+      display: none;
+  
+      height: 350px;
+      width: 898px;
+  }
+  
+  
+  .slideDisplay:first-child {
+      display: block;
+  
+      height: 150px;
+      width: 150px;
+  
+  }
+  
+  .sliderBtn-block {
+  
+      margin-top: -38px;
+  
+  }
+  
+  .sliderBtn {
+      background-color: black;
+      padding: 6px;
+      color: white;
+      border-radius: 22px;
+      height: 36px;
+      width: 86px;
+  }
+  
+  .sliderBtn:hover {
+      background-color: darkgray;
+      color: black;
+  }
+  
+  
+
+/*******************Slider code ends here***************************/
+
+
