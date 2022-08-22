@@ -1,4 +1,33 @@
 
+.book-1{
+    text-align: center;
+    font-family: Fredericka;
+    Size: 274px;
+ }
+.book-table-main {
+    display: flex;
+    padding-left: 350px;
+ }
+.book-table1 {
+    padding: 10px;
+}
+.book-2 {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type=button]{
+    width: 330px;
+    height: 48px;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+=======
+
 
 @font-face {
     font-family: 'FrederickatheGreat-Regular';
@@ -258,6 +287,4 @@ padding: 20px;
     position: absolute;
     bottom: -270px;
     left: -190px;
-
-
 }
