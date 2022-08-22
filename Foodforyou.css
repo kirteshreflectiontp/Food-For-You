@@ -85,7 +85,7 @@
     border-radius: 100%;
     margin-left: 10px;
  }
-=======
+
 
 .book-1{
     text-align: center;
@@ -114,7 +114,7 @@ input[type=button]{
     background-color: yellow;
     font-size: 20px;
     font-weight: bold;
-=======
+}
 
 
 @font-face {
@@ -179,11 +179,12 @@ input[type=button]{
     margin-right: 120px;
 }
 .choose-and-enjoy{
-    width:33.33%;
+    width:33.33%;}
 
 body{
     width: 100%;
     margin: 0px;
+}
 @font-face {
     font-family:'montserrat';
     src: url(./fonts/montserrat.regular.ttf);
@@ -231,7 +232,7 @@ padding: 20px;
 }
 .mpp_sub_txt1{
     font-size: 43px;
-=======
+}
 @font-face {
     font-family:'gabelisa';
     src: url(./fonts/gabelisa.ttf);
