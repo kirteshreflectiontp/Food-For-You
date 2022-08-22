@@ -19,20 +19,24 @@
  
  .footer-bg-img {
     position: relative;
+    margin: 100px 0px 0px 0px ;
  
  }
  
  .footer-logo {
     width: 100px;
+    margin-bottom: 30px;
  }
  
  .left-footer {
- 
     position: absolute;
-    top: 101px;
-    right: -47px;
-    margin-right: 124px;
-    width: 88%;
+    top: 2910px;
+    /* right: -47px; */
+    /* margin: 0px 145px; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 82px;
  }
  
  .i-footer-color {
@@ -54,10 +58,12 @@
  }
  
  .footer-location {
-    font-family:' montserrat';
+    font-family: ' montserrat';
     width: 500px;
     padding-top: 23px;
-    font-size: 17px
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
  }
  
  .footer-address {
@@ -85,48 +91,62 @@
     border-radius: 100%;
     margin-left: 10px;
  }
-=======
+
 
 .book-1{
     text-align: center;
-    font-family: Fredericka;
-    Size: 274px;
+    margin: 0px 0px 80px 0px;
+ }
+ .book-1_h1{
+    font-family: ' montserrat';
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+ }
+ .book-1_h2{
+    font-family: 'FrederickatheGreat-Regular';
+    font-size: 57px;
  }
 .book-table-main {
     display: flex;
-    padding-left: 350px;
+    justify-content: center;
  }
 .book-table1 {
     padding: 10px;
 }
 .book-2 {
-    padding: 15px;
-    width: 300px;
+    padding: 0px 25px;
     border: 1px solid gray;
     border-radius: 5px;
+    font-size: 17px;
+    width: 359px;
+    height: 65px;
 }
-input[type=button]{
-    width: 330px;
-    height: 48px;
+.book-2_input{
+    padding: 0px 25px;
+    width: 410px;
+    height: 65px;
     border: 1px solid gray;
-    color: black;
     border-radius: 5px;
+    color: black;
     background-color: yellow;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
-=======
+}
 
 
 @font-face {
-    font-family: 'FrederickatheGreat-Regular';
+    font-family:'FrederickatheGreat-Regular';
     src: url('./font/FrederickatheGreat-Regular.ttf');
 }
 
 
-
+.chooseEnjoySection{
+    margin: 100px 0px 0px 0px;
+}
 .heading{
-    font-size: xxx-large;
-    font-family:FrederickatheGreat-Regular ;
+    font-size: 50px;
+    font-family:'FrederickatheGreat-Regular' ;
     text-align: center;
 }
 .text{
@@ -134,7 +154,7 @@ input[type=button]{
     font-size: larger;
     text-align: center;
     margin: 0 auto;
-    font-family: cursive;
+    font-family:' montserrat';
 }
 .strip{
     padding: 65px;
@@ -148,29 +168,50 @@ input[type=button]{
 .bread{
     display: flex;
     text-align: center;
-    top: 199px;
+    top:  1100px;
     position: absolute;
+    justify-content: space-around;
+    width: 100%;
 }
 .bold{
     font-weight: bold;
     text-align: center;
-    font-size: x-large;
+    font-size: 21px;
+    font-family:' montserrat';
 }
-.car1{width: 70%;
+.chooseEnjoyFont1{
+    font-size: 17px;
+    font-family:' montserrat';
+}
+.car1{
+    width:359px ;
+    height:357px ;
+    border-radius: 100%;
+    box-shadow: 0px 10px 15px 0px grey;
+}
 
-}
 .car2{
-    width: 72%;
+    width: 372px;
+    height:353px ;
     padding-top: 8px;
+    border-radius: 100%;
+    box-shadow: 0px 10px 15px 0px grey;
 }
+
 .car3{
-    width: 70%;
+    width: 351px;
+    height:353px ;
+    border-radius: 100%;
+    box-shadow: 0px 10px 15px 0px grey;
 }
+
 .button{
     background-color: yellow;
     padding: 15px 35px;
     border: none;
-    font-weight: 900;
+    font-weight:bold;
+    font-size: 17px;
+    font-family:' montserrat' ;
 }
 .text2{
     font-family: cursive;
@@ -180,10 +221,12 @@ input[type=button]{
 }
 .choose-and-enjoy{
     width:33.33%;
-
+}
 body{
     width: 100%;
     margin: 0px;
+}
+
 @font-face {
     font-family:'montserrat';
     src: url(./fonts/montserrat.regular.ttf);
@@ -193,6 +236,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    margin: 400px 0px 80px 0px;
 }
 
 .mpp_block1,.mpp_block2{
@@ -231,7 +275,7 @@ padding: 20px;
 }
 .mpp_sub_txt1{
     font-size: 43px;
-=======
+}
 @font-face {
     font-family:'gabelisa';
     src: url(./fonts/gabelisa.ttf);
@@ -254,17 +298,19 @@ padding: 20px;
   .header_content{
     position: absolute;
     top: 10px;
+    right: 2px;
     width: 95%;
     padding: 30px;
   }
   .head_one{
     display: flex;
     justify-content: space-between;
-    padding: 0px 15px;
+    padding: 0px 25px;
+    align-items: end;
   }
   .head_one_txt{
     float: left;
-    padding-right: 35px;
+    padding-right: 25px;
   }
   .head_one_txt1{
     font-size: 17px;
@@ -281,7 +327,7 @@ padding: 20px;
     float: left;
 }
 .head_two{
-    padding: 0px 15px;
+    padding: 0px 25px;
     display: flex;
     justify-content: end;
 
@@ -292,7 +338,7 @@ padding: 20px;
 }
 .head_nav_item{
     font-size: 17px;
-    padding: 0px 0px 0px 78px;
+    padding: 0px 0px 0px 75px;
     font-weight: bold;
     font-family:'montserrat';
 }
@@ -328,12 +374,12 @@ padding: 20px;
     margin: 0px 0px 15px 0px;
 }
 .head_border{
-    border-top: 2px solid navajowhite;
-    width: 469px;
+    border-top: 2px solid gray;
     margin: 30px;
 }
 .head_num{
     font-size: 57px;
+    padding-left: 20px;
 }
 .order_now_button{
     padding: 15px 25px;
@@ -348,12 +394,13 @@ padding: 20px;
     top: 10px;
     left: 25px;
     transform: rotate(-20deg);
+   
 }
 .head_pasta{
     position: absolute;
     top: 10px;
     left: 620px;
-
+    transform: rotate(160deg)
 }
 .head_pasta_dish{
     position: absolute;
