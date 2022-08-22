@@ -8,7 +8,11 @@
     <title>Food For You</title>
     <script src="https://kit.fontawesome.com/b826549c01.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Foodforyou.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/520217cf64.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <section class="header_bg">
@@ -51,7 +55,7 @@
                     <button class="order_now_button">ORDER NOW</button>
                 </div>
                 <div>
-                    <img src="./images/Leaf1.png" alt="" class="head_leaf"  width="45"  height="105">
+                    <img src="./images/Leaf1.png" alt="" class="head_leaf" width="45" height="105">
                     <img src="./images/Pasta.png" alt="" class="head_pasta" width="95" height="96">
                     <img src="./images/Place Your Image Here (Double Click to Edit)1.png" alt="dish"
                         class="head_pasta_dish" width="567" height="567">
@@ -145,35 +149,35 @@
             <div class="book-1_h1">RESERVATION</div>
             <div class="book-1_h2">BOOK YOUR TABLE</div>
         </div>
-        
-            <div class="book-table-main">
-                <div class="book-table1">
-                    <div><input id="name" type="text" placeholder="Name" class="book-2">
-                        <div class="orange" id="nameerror"></div>
-                    </div>
-                </div>
 
-                <div class="book-table1">
-                    <div><input id="email" type="email" placeholder="Email" class="book-2">
-                        <div class="orange" id="emailerror"></div>
-                    </div>
+        <div class="book-table-main">
+            <div class="book-table1">
+                <div><input id="name" type="text" placeholder="Name" class="book-2">
+                    <div class="orange" id="nameerror"></div>
                 </div>
             </div>
 
-            <div class="book-table-main">
-                <div class="book-table1">
-                    <div><input id="date" type="text" placeholder="Date" class="book-2">
-                        <div class="orange" id="dateerror"></div>
-
-                    </div>
-                </div>
-
-                <div class="book-table1">
-                    <div><input id="time" type="text" name="time" id="time" placeholder="Time" class="book-2">
-                    </div>
+            <div class="book-table1">
+                <div><input id="email" type="email" placeholder="Email" class="book-2">
+                    <div class="orange" id="emailerror"></div>
                 </div>
             </div>
-        
+        </div>
+
+        <div class="book-table-main">
+            <div class="book-table1">
+                <div><input id="date" type="text" placeholder="Date" class="book-2">
+                    <div class="orange" id="dateerror"></div>
+
+                </div>
+            </div>
+
+            <div class="book-table1">
+                <div><input id="time" type="text" name="time" id="time" placeholder="Time" class="book-2">
+                </div>
+            </div>
+        </div>
+
 
         <div class="book-table-main">
             <div class="book-table1">
@@ -183,7 +187,7 @@
             </div>
 
             <div class="book-table1">
-                <div><button  type="button" id="btntable" value="" class="book-2_input">FIND A TABLE</button>
+                <div><button type="button" id="btntable" value="" class="book-2_input">FIND A TABLE</button>
                     <div class="orange" id="dateerror"></div>
                 </div>
             </div>
@@ -202,9 +206,15 @@
                     Quis ipsum suspendisse ultrices gravida. Risus commodo viver <br>
                     ra maecenas accumsan lacus vel facilisis.</p>
                 <div class="footer-location">
-                  <div class="footer_flex"> <div><i class="fa-solid fa-location-dot footer-address"></i></div><div> Main Road,Building Name,Country</div></div>
+                    <div class="footer_flex">
+                        <div><i class="fa-solid fa-location-dot footer-address"></i></div>
+                        <div> Main Road,Building Name,Country</div>
+                    </div>
                     <br>
-                   <div class="footer_flex"><div><i class="fa-solid fa-envelope footer-mail"></i></div><div>info@companyname.com</div></div> 
+                    <div class="footer_flex">
+                        <div><i class="fa-solid fa-envelope footer-mail"></i></div>
+                        <div>info@companyname.com</div>
+                    </div>
                 </div>
             </div>
 
@@ -229,6 +239,7 @@
         </div>
 
     </footer>
+   
 </body>
 
 </html>
