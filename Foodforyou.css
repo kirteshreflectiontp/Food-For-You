@@ -1,4 +1,5 @@
 
+
 @font-face {
     font-family: 'FrederickatheGreat-Regular';
     src: url('./font/FrederickatheGreat-Regular.ttf');
@@ -66,11 +67,54 @@
 body{
     width: 100%;
     margin: 0px;
-}
 @font-face {
     font-family:'montserrat';
     src: url(./fonts/montserrat.regular.ttf);
 }
+
+.mpp_block{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mpp_block1,.mpp_block2{
+padding: 20px;
+}
+.mpp_img1{
+    padding-bottom: 30px;
+}
+.mpp_txt1{
+    position: absolute;
+    left: 200px;
+    top:  75px;
+    color: white;
+    font-family:'montserrat';
+}
+.mpp_txt2{
+    position: absolute;
+    right: 490px;
+    top: 45px;
+    color: white;
+    font-family:'montserrat';
+}
+
+.mpp_txt3{
+    position: absolute;
+    right: 465px;
+    bottom: 120px;
+    color: white;
+    font-family:'montserrat';
+}
+.try-it-out{
+    font-size: 25px;
+}
+.mpp_sub_txt2{
+    font-size: 33px;
+}
+.mpp_sub_txt1{
+    font-size: 43px;
+=======
 @font-face {
     font-family:'gabelisa';
     src: url(./fonts/gabelisa.ttf);
@@ -214,5 +258,6 @@ body{
     position: absolute;
     bottom: -270px;
     left: -190px;
+
 
 }
