@@ -11,6 +11,10 @@
     font-size: 17px;
     padding: 10px;
     justify-content: space-between;
+    
+ }
+ .footer-text p {
+    line-height: 25px;
  }
  
  .footer-copyright {
@@ -46,13 +50,16 @@
     border-radius: 100%;
     margin-left: 10px;
  }
- 
+ .footer_flex{
+    display: flex;
+    align-items: center;
+ }
  .footer-bottom {
     font-family:' montserrat';
     display: flex;
     justify-content: space-between;
     font-size: 17px;
-    padding-top: 155px;
+    padding-top: 135px;
     margin: 0px 0px 0px 7px;
  
  }
@@ -67,16 +74,18 @@
  }
  
  .footer-address {
-    color: yellow;
+    color: #ffdf01;
     width: 63px;
     font-size: 35px;
     height: 35px;
+    padding-left: 30px;
  }
  
  .footer-mail {
-    color: yellow;
+    color: #ffdf01;
     width: 65px;
     font-size: 30px;
+    padding-left: 30px;
  
  }
  
@@ -95,7 +104,7 @@
 
 .book-1{
     text-align: center;
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 70px 0px;
  }
  .book-1_h1{
     font-family: ' montserrat';
@@ -129,7 +138,7 @@
     border: 1px solid gray;
     border-radius: 5px;
     color: black;
-    background-color: yellow;
+    background-color: #ffdf01;
     font-size: 21px;
     font-weight: bold;
 }
@@ -148,6 +157,7 @@
     font-size: 50px;
     font-family:'FrederickatheGreat-Regular' ;
     text-align: center;
+    margin-bottom: 10px;
 }
 .text{
 
@@ -172,16 +182,19 @@
     position: absolute;
     justify-content: space-around;
     width: 100%;
+    align-items: flex-end;
 }
 .bold{
     font-weight: bold;
     text-align: center;
     font-size: 21px;
     font-family:' montserrat';
+    margin-top: 35px;
 }
 .chooseEnjoyFont1{
     font-size: 17px;
     font-family:' montserrat';
+    margin-bottom: 25px;
 }
 .car1{
     width:359px ;
@@ -206,7 +219,7 @@
 }
 
 .button{
-    background-color: yellow;
+    background-color: #ffdf01;
     padding: 15px 35px;
     border: none;
     font-weight:bold;
@@ -246,14 +259,14 @@ padding: 20px;
 }
 .mpp_txt1{
     position: absolute;
-    left: 200px;
-    top:  75px;
+    left: 175px;
+    top: 55px;
     color: white;
     font-family:'montserrat';
 }
 .mpp_txt2{
     position: absolute;
-    right: 490px;
+    right: 480px;
     top: 45px;
     color: white;
     font-family:'montserrat';
@@ -261,7 +274,7 @@ padding: 20px;
 
 .mpp_txt3{
     position: absolute;
-    right: 465px;
+    right: 456px;
     bottom: 120px;
     color: white;
     font-family:'montserrat';
@@ -390,9 +403,9 @@ padding: 20px;
 }
 .head_leaf{
     position: absolute;
-    top: 10px;
-    left: 25px;
-    transform: rotate(-20deg);
+    top: 5px;
+    left: 35px;
+    transform: rotate(-35deg);
    
 }
 .head_pasta{
