@@ -1,0 +1,86 @@
+@font-face {
+    font-family:' montserrat';
+    src: url(./montserrat.regular.ttf);
+  }
+ 
+ .footer-text {
+    font-family:' montserrat';
+    display: flex;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 10px;
+    justify-content: space-between;
+ }
+ 
+ .footer-copyright {
+    color: aliceblue;
+ }
+ 
+ .footer-bg-img {
+    position: relative;
+ 
+ }
+ 
+ .footer-logo {
+    width: 100px;
+ }
+ 
+ .left-footer {
+ 
+    position: absolute;
+    top: 101px;
+    right: -47px;
+    margin-right: 124px;
+    width: 88%;
+ }
+ 
+ .i-footer-color {
+    background-color: aliceblue;
+    font-size: larger;
+    padding: 5px 7px;
+    border-radius: 100%;
+    margin-left: 10px;
+ }
+ 
+ .footer-bottom {
+    font-family:' montserrat';
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-top: 155px;
+    margin: 0px 0px 0px 7px;
+ 
+ }
+ 
+ .footer-location {
+    font-family:' montserrat';
+    width: 500px;
+    padding-top: 23px;
+    font-size: 17px
+ }
+ 
+ .footer-address {
+    color: yellow;
+    width: 63px;
+    font-size: 35px;
+    height: 35px;
+ }
+ 
+ .footer-mail {
+    color: yellow;
+    width: 65px;
+    font-size: 30px;
+ 
+ }
+ 
+ .right-footer {
+    padding-right: 10px;
+ }
+ 
+ .i-footer-logo {
+    background-color: aliceblue;
+    font-size: larger;
+    padding: 5px 9px;
+    border-radius: 100%;
+    margin-left: 10px;
+ }
