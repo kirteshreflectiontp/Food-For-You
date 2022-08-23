@@ -34,7 +34,7 @@
  
  .left-footer {
     position: absolute;
-    top: 2910px;
+    top: 3603px;
     /* right: -47px; */
     /* margin: 0px 145px; */
     width: 90%;
@@ -248,7 +248,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 400px 0px 80px 0px;
+    margin: 150px 0px 80px 0px;
 }
 
 .mpp_block1,.mpp_block2{
@@ -438,69 +438,108 @@ padding: 20px;
 
 
 /*SLider*/
-.slide{
-    position: absolute;
-    /* bottom: -42px; */
-    width: 100%;
-    height: 100%;
-}
+/******************Slider code starts here*****************/
 
-.box1 {
-    background: url("./images/img1.jpg");
-    background-size: cover;
-    background-position:  center;
-  }
-  .box2 {
-    background: url("./images/img2.jpg");
-    background-size: cover;
-    background-position:  center;
-  }
-  .box3 {
-    background: url("./images/Image3.png");
-    background-size: cover;
-    background-position:  center;
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url('./fonts/FrederickatheGreat-Regular.ttf');
   }
   
-  .slider [class*="box"] {
-    overflow: hidden;
-    transition: all 1s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-    position: absolute;
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf');
   }
-  .slider [class*="box"]:nth-child(1) , .slider [class*="box"]:nth-child(3){
-    width: 145%;
-    height: 235%;
-    transform: scale(0.2) translate(-50%, -50%);
-    top: -45%;
-    z-index: 1;
+  
+  @font-face {
+    font-family: 'Roboto-Thin';
+    src: url('./fonts/Roboto-Thin.ttf');
   }
-   .slider [class*="box"]:nth-child(2) {
-    width: 110%;
-    height: 135%;
-    transform: scale(0.4) translate(-50%, -50%);
-    top: 8%;
-    z-index: 2;
+  
+  
+  /*body {
+      margin: 0 auto;
+      max-width: 1260px;
+      text-align: center;
+  }*/
+  .discover-heading{
+    
+   font-family: 'Montserrat';
+      font-weight: bold;
+      font-size: 21px;
+  
   }
-  .slider [class*="box"]:nth-child(1) {
-    left: -44%;
+  
+  .divHeading{
+    margin-top: 34px;
+    padding-bottom: 75px;
   }
-  .slider [class*="box"]:nth-child(2) {
-    left: 17%;
+  
+  .upcoming-eventSlider-block{
+    text-align: center;
+    margin-top: 400px;
+}
+  
+  .upcomingEvent-heading{
+   font-family: FrederickatheGreat-Regular;
+   text-transform: uppercase;
+   font-size: 42px;
   }
-  .slider [class*="box"]:nth-child(3) {
-    left: 28%;
+  
+  .divHeading p{
+    font-family: Montserrat;
+    font-size: 17px;
+    margin: 18px 198px;
   }
- 
-  .slider .firstSlide {
-    animation: firstChild 1s;
+  
+  .showSlider {
+  
+  
+      height: 197px;
+      width:300px;
+      margin: auto;
+  
+      padding: 26px;
+      background-color: white;
+      box-shadow: -3px 20px 59px -7px;
+  
   }
- 
-  @keyframes firstChild {
-    0% {
-      left: 100%;
-      transform: scale(0.2) translate(-50%, -50%);
-    }
-    100% {
-      left: -13%;
-      transform: scale(0.2) translate(-50%, -50%);
-    }
+  
+  .slideDisplay {
+      display: none;
+  
+      height: 350px;
+      width: 898px;
   }
+  
+  
+  .slideDisplay:first-child {
+      display: block;
+  
+      height: 150px;
+      width: 150px;
+  
+  }
+  
+  .sliderBtn-block {
+  
+      margin-top: -38px;
+  
+  }
+  
+  .sliderBtn {
+      background-color: black;
+      padding: 6px;
+      color: white;
+      border-radius: 22px;
+      height: 36px;
+      width: 86px;
+  }
+  
+  .sliderBtn:hover {
+      background-color: darkgray;
+      color: black;
+  }
+  
+  
+
+/*******************Slider code ends here***************************/
